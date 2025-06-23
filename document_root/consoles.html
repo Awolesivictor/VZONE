@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+      <html lang="en">
+        <head>
+            <title>VZONE-the site to get all your favourite games from the 90's till date</title>
+            <link rel="stylesheet" type="text/css" href="styles/game.css">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta charset="utf-8"/>
+            <meta name = "description" content = "The home to all consoles games">
+            <meta keywords = "PS5pkgs, Ps4pkgs , ps3pkgs ,ps2 games,xbox games ">
+            <link rel="favourite icon" href="images/favicon.png"/>
+        </head>
+        <body id="body">
+          <!-- NAVAGATION BAR -->
+            <div id="navagation">
+                <img src="images/logo.png " alt="logo" style="padding:5px;margin-top:-18px;position:absolute">
+                <div style="text-align:right;position:relative;left:55px;margin-right:40px">
+                  <a href="index.html" class="anav">Home</a>
+                  <a href="#" class="anav active">consoles</a>
+                  <a href="games.html" class="anav">Games</a>
+                  <a href="feeds.html" class="anav">Feeds</a>
+                  <form action="action.php" method="get">
+                    <input type="search" id="search" name="search:" placeholder="search" style="position:absolute;right:90px;top:30px" />
+                    <button type="submit" style="background-color: transparent;"><i class="fa fa-search" id="idom" onclick="submit()"></i></button>
+                  </form>
+                </div>
+            </div>
+            <!-- NAVAGATION END -->
+                <div style="text-align: left; background-image: url('images/banner.jpg');width:100%;margin:0 auto;height:121px;background-color: #222831;"></div>
+                  <header>
+                     <div id="header">
+                          <h1>V<span style="color:#cccccc">-</span><span style="color:#ff9900">ZONE</span></h1>
+                          <p>The vault "Home to all consoles"</p>
+                     </div>
+                  </header>
+                  <!-- Sidebar menu -->
+                  <aside>
+                    <div onclick="showsidebar()" style="position: relative;top:-30px;left:5px" class="bar">
+                      <div class="menu"></div>
+                      <div class="menu"></div>
+                      <div class="menu"></div>
+                    </div>                    
+                    <div id="sidebar">
+                      <button onclick="closesidebar()" class="close_sidebar_button">X</button>
+                      <br>
+                      <h3 class="sidebar_text">Navagation</h3><br>
+                      <hr>
+                      <a href="consoles.html" class="a">Consoles </a>
+                      <a href="handheld.html" class="a">Handheld <i class=" fa fa-game-console-handheld"></i></a>
+                      <a href="playstation.html" class="a">Playstation <i class='fab fa-playstation'></i></a>
+                      <a href="xbox.html" class="a">Xbox&nbsp;&nbsp; <i class="fa-brands fa-xbox"></i> </a>
+                      <a href="nintedo.html" class="a">Nitendo</a>
+                      <a href="pc.html" class="a">Pc &nbsp;&nbsp;<i class="fa fa-laptop"></i></a>
+                      <a href="mobile.html" class="a">Mobile&nbsp;&nbsp; <i class="fa fa-mobile"></i></a>
+                      <br>
+                      <hr>
+                      <br>
+                      <h3 class="sidebar_text">Contact us</h3>
+                      <br>
+                      <hr>
+                      <br>
+                      <div class="sidebar_contact-us-texts">
+                        <p> <i class="fa fa-envelope"></i> <span style="color:#cccccc;text-decoration:none" >awolesivictor7@gmail.com</span> 
+                         <br/>
+                         <br/>
+                         <i class="fa fa-phone"></i>         +2348084837359
+                         <br/><br/>
+                        <i class="fa fa-facebook-f"></i>      Awolesi  victor</p>
+                      </div>
+                      <br>
+                      <br>
+                      <div id="sidebar_footer">
+                        <p style="text-align: center;background-color: #0d2e61;padding:20px;
+                        width:100%">&copy; 2024 v-zone</p>
+                      </div>
+                    </div>
+                  </aside>
+                  <!--Main-->
+                     <div class="containers2" oncllick="window.location.href=''">
+                               <p>Playstation studio</p>
+                               <img src="images/logos/playstation.png" alt="playstation 1"/>
+                               <p style="font-size: 14px;">Fight club</p>
+                               <p style="font-size: 14px;">Tekken 3</p>
+                               <p style="font-size: 14px;">Crash team racing</p>
+                               <p style="font-size: 14px;">Final fantasy</p>
+                               <p style="font-size: 14px;">Silent hill</p>
+                     </div>
+                     <div class="containers2" oncllick="window.location.href=''">
+                         <p>Xbox 360 studio</p>
+                         <img src="images/logos/xbox360.png" alt="Xbox360"/>
+                         <p style="font-size: 14px;">Gears of war</p>
+                         <p style="font-size: 14px;">Forza horizon</p>
+                         <p style="font-size: 14px;">Life is strange</p>
+                         <p style="font-size: 14px;">Alan wake 1</p>
+                         <p style="font-size: 14px;">Star wars</p>
+                     </div>
+                     <div class="containers2" onclick="windows.location.href=''">
+                          <p>Playstation 2 studio</p><br/>
+                          <img src="images/logos/playstation2.png" alt="playstation 2"/>
+                          <p style="font-size: 14px;">Grand theft auto sa</p>
+                          <p style="font-size: 14px;">Burnout 3</p>
+                          <p style="font-size: 14px;">Devil may cry</p>
+                          <p style="font-size: 14px;">Need for speed underground</p>
+                          <p style="font-size: 14px;">COD: finest hour</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Xbox 1 studios</p>
+                         <img src="images/logos/xboxone.png" alt="xbox one"/>
+                         <p style="font-size: 14px;">Forza horizon 5</p>
+                         <p style="font-size: 14px;">Halo infinite</p>
+                         <p style="font-size: 14px;">Red dead redemption 2</p>
+                         <p style="font-size: 14px;">COD MW II</p>
+                         <p style="font-size: 14px;">Elden ring</p>
+
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Playstation 3 studios</p>
+                         <img src="images/logos/playstation3.png" alt="playstation 3"/>
+                         <p style="font-size: 14px;">Grand turismo 6</p>
+                         <p style="font-size: 14px;">Last of us</p>
+                         <p style="font-size: 14px;">Uncharted 2</p>
+                         <p style="font-size: 14px;">COD: Ghost</p>
+                         <p style="font-size: 14px;">Assins creedII</p>
+
+                    </div>
+                    <div class="containers2" onclick="window.location.href='playstation4.html'">
+                        <p>Playstation 4 studio</p>
+                        <img src="images/logos/ps4.png" alt="ps4"/>
+                        <p style="font-size:14px">God of war Ragnarok</p>
+                        <p style="font-size:14px">Days gone</p>
+                        <p style="font-size:14px">Horizon forbidden west</p>
+                        <p style="font-size:14px">Marvels spider man</p>
+                    </div><br/>
+                    <div class="containers2" onclick="window.location.href=''">
+                     <p>Xbox series x studio</p>
+                     <img src="images/logos/Xbox_Series_X_Logo.png" alt="xbox-series-x"/>
+                     <p style="font-size:14px">Star Field</p>
+                     <p style="font-size:14px">Cyber punk 2077</p>
+                     <p style="font-size:14px">Nba 2k 24</p>
+                     <p style="font-size:14px">W2k 24</p>
+                     <p style="font-size:14px">Halo infinity</p>
+                     
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Xbox studio</p>
+                      <img src="images/logos/xbox.png" alt="xbox"/>
+                      <p style="font-size:14px">Splinter cell</p>
+                      <p style="font-size:14px">Halo</p>
+                      <p style="font-size:14px">Marrowwind</p>
+                      <p style="font-size:14px">Fable</p>
+                      <p style="font-size:14px">Project gotham racing</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Playstation 5 studio</p>
+                      <img src="images/logos/ps5-logo.png" alt="playstation 5"/>
+                      <p style="font-size:14px">Spider man 2</p>
+                      <p style="font-size:14px">Mortal Kombat 1</p>
+                      <p style="font-size:14px">Ea fc24</p>
+                      <p style="font-size:14px">Baldur's gate 3</p>
+                      <p style="font-size:14px">Elden ring</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Nintendo</p>
+                      <img src="images/logos/nintendo.png" alt="nintendo"/>
+                      <p style="font-size:14px">Bayonetta 2</p>
+                      <p style="font-size:14px">GTA: chinatown wars</p>
+                      <p style="font-size:14px">Super mario 64</p>
+                      <p style="font-size:14px">Super smash brawl & ultimate</p>
+                      <p style="font-size:14px">Super mario</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Super Nintendo</p>
+                      <img src="images/logos/super_nintendo.png" alt="super_nintendo"/>
+                      <p style="font-size:14px">TMNT: turtles in time</p>
+                      <p style="font-size:14px">Act raiser</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px">Starfox</p>
+                      <p style="font-size:14px">NBA jam:tournament edition</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Nintendo Gameboy color</p>
+                      <img src="images/logos/gameboy_color.png" alt="gameboy_color"/>
+                      <p style="font-size:14px">Toki tori</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px">Harry potter and the philosopher stone</p>
+                      <p style="font-size:14px">Mega man extreme 2</p>
+                      <p style="font-size:14px"></p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Ninetendo switch</p>
+                      <img src="images/nintedoswitch.png" alt="nintedo-switch"/>
+                      <p style="font-size:14px">Dead cells</p>
+                      <p style="font-size:14px">Pokemon legends</p>
+                      <p style="font-size:14px">Legend of zelda</p>
+                      <p style="font-size:14px">Super mario bros wonder</p>
+                      <p style="font-size:14px">Fabledom</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Nintendo 64</p>
+                      <img src="images/nintedo64.png" alt="nintedo-64"/>
+                      <p style="font-size:14px">Wave race 64</p>
+                      <p style="font-size:14px">Fighter destiny</p>
+                      <p style="font-size:14px">Diddy kong racing</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px">Perfect dark</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Playstation portable</p>
+                      <img src="images/psp.png" alt="playstation-portable"/>
+                      <p style="font-size:14px">Grand turismo</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px">Fifa 14</p>
+                      <p style="font-size:14px">Dragon ball z shin budokai</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Dream cast</p>
+                      <img src="images/dreamcast1.png" alt="dreamcast"/>
+                      <br><br>
+                      <p style="font-size:14px">Shenmue</p>
+                      <p style="font-size:14px">Sonic adventure</p>
+                      <p style="font-size:14px">Soulcalibur</p>
+                      <p style="font-size:14px">Power stone 2</p>
+                      <p style="font-size:14px"></p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Game cube</p>
+                      <img src="images/gamecube.png" alt="Game cube"/>
+                      <p style="font-size:14px">Super smash Bros</p>
+                      <p style="font-size:14px">Metriod prime 2 </p>
+                      <p style="font-size:14px">Legend of Zelda:the wind walker</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px"></p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Wii</p>
+                      <img src="images/wii1.png" alt="wii"/>
+                      <br><br>
+                      <p style="font-size:14px">Wii fit</p>
+                      <p style="font-size:14px">Wii play</p>
+                      <p style="font-size:14px">Super smash bros</p>
+                      <p style="font-size:14px">Resident evil 4</p>
+                      <p style="font-size:14px">Mario party 8</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Nintendo Ds</p>
+                      <img src="images/nintedods.png" alt="Nintedo ds"/>
+                      <br><br><br><br>
+                      <p style="font-size:14px">Mario kart ds</p>
+                      <p style="font-size:14px">Pokemon platinum</p>
+                      <p style="font-size:14px">GTA chinatown wars</p>
+                      <p style="font-size:14px">Mario and luigi</p>
+                      <p style="font-size:14px">Animal crossing</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Ps vita</p>
+                      <img src="images/psvita.png" alt="ps-vita"/>
+                      <br><br><br>
+                      <p style="font-size:14px">Persona 4 Golden</p>
+                      <p style="font-size:14px">Gravity rush</p>
+                      <p style="font-size:14px">Mortal kombat</p>
+                      <p style="font-size:14px">Rayman origins</p>
+                      <p style="font-size:14px">Uncharted Golden abyss</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Wii U</p>
+                      <img src="images/wiiu.png" alt="wii-u"/>
+                      <br><br><br>
+                      <p style="font-size:14px">Mario kart 8</p>
+                      <p style="font-size:14px">Pokken tournament</p>
+                      <p style="font-size:14px">Splatoon</p>
+                      <p style="font-size:14px">Pilkim 3</p>
+                      <p style="font-size:14px">Bayonetta 2</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Nintedo 3ds</p>
+                      <img src="images/nintedo3ds.png" alt="nintedo-3ds"/>
+                      <br><br><br>
+                      <p style="font-size:14px">Metroid samus returns</p>
+                      <p style="font-size:14px">Mario kart 7</p>
+                      <p style="font-size:14px">Mario brawl smash</p>
+                      <p style="font-size:14px">Tennis</p>
+                      <p style="font-size:14px">Pokemon</p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>PC</p>
+                      <img src="images/pc.png" alt="PC"/>
+                      <p style="font-size:14px">Project cars 2</p>
+                      <p style="font-size:14px">Horizon zero dawn</p>
+                      <p style="font-size:14px">Alan wake 2</p>
+                      <p style="font-size:14px">Cod advance warefare 3</p>
+                      <p style="font-size:14px"></p>
+                    </div>
+                    <div class="containers2" onclick="window.location.href=''">
+                      <p>Mobile</p>
+                      <img src="images/mobile1.png" alt="Mobile"/>
+                      <p style="font-size:14px">GTA san andreas</p>
+                      <p style="font-size:14px">Grand theft auto Vice city</p>
+                      <p style="font-size:14px">Grand theft auto 3</p>
+                      <p style="font-size:14px"></p>
+                      <p style="font-size:14px"></p>
+                  </div>
+                  <!-- MAIN END FOOTER BEGIN -->
+                    <footer>
+                      <h1 style="text-align: center;color:blue">V<span  style="color:white">-</span><span style="color:#ff9900">ZONE</span></h1>
+                      <p>Contact us <br/><br/>
+                        <i class="fa fa-envelope"></i> Email:<a href="mailto:awolesivictor7@gmail.com?subject=HELLO?body=I would like you to add a new game to this website" style="color:#cccccc;text-decoration:none">awolesivictor7@gmail.com</a> 
+                        <br/>
+                        <br/>
+                        <i class="fa fa-phone"></i> Number:         +2348084837359
+                        <br/><br/>
+                        <i class="fa fa-facebook-f"></i> Facebook:       Awolesi  victor
+                      </p>
+                      <br/>
+                      <div style=" color:orangered">
+                      <hr/>
+                      <br/>
+                      <p>Navagation</p>
+                      <div id="footer-navagation">
+                      <li><!--add home icon--><a href="index.html">Home</a></li>
+                      <li><a href="handheld.html">Handheld</a></li>
+                      <li><a href="playstation.html">Playtation</a></li>
+                      <li><a href="xbox.html.html">Xbox</a></li>
+                      <li><a href="nintedo.html">Nintedo</a></li>
+                      <li><a href="pc.html">Pc</a></li>
+                      <li><a href="games.html">Games</a></li>
+                      <li><a href="feeds.html">Feeds</a></li>
+                     </div>
+                      <br/>
+                      <hr/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <p style="text-align: center;background-color: #0d2e61;padding:20px;
+                      border-radius:10px;width:100%">&copy; 2024 v-zone</p>
+                      </div>
+                    </footer>
+                    <script src="Scripts/game.js"></script>
+        </body>
+        </html>
